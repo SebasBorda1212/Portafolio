@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background: #F5F5F5;
+
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #0D47A1;
+            text-align: left;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .main {
+            text-align: left;
+            color: white;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: #F5F5F5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            flex: 1;
+            text-align: left;
+            padding: 30px;
+        }
+
+        .hero h2 {
+            color: #212121;
+        }
+
+        .hero p {
+            color: #555;
+        }
+
+        .hero img {
+            width: 250px;
+            margin: 20px 0;
+        }
+
+        .formulario {
+            max-width: 500px;
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .formulario input,
+        formulario-textarea {
+            margin-bottom: 2px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .formulario textarea {
+            height: 50px;
+            margin-bottom: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            resize: vertical;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #003079;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #2E7D32;
+            color: white;
+        }
+
+        footer {
+            background-color: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+
+        .social {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .social a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #2563eb;
+        }
+
+        .social a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi web</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Sobre mi</a>
+            <a href="portafolio.html">Portafolio</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <h2>Contacto</h2><br>
+
+
+    </main>
+    <main>
+        <form action="" class="formulario">
+            <input type="text" name="nombre" placeholder="Tu nombre" required><br><br>
+            <input type="text" name="email" placeholder="Tu correo" required><br><br>
+            <br>
+            <textarea name="Comentarios" rows="4" cols="30" placeholder="Tu mensaje"></textarea><br><br>
+            <button type="reset" class="btn">Enviar</button>
+        </form>
+    </main>
+    <div class="social">
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">facebook</a>
+        <a href="https://github.com/" target="_blank">Github</a>
+        <a href="https://co.linkedin.com/" target="_blank">linkedin</a>
+    </div>
+    <footer>
+        <p>© 2025 Desarrollo propio - Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #0D47A1;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main.hero {
+      text-align: left;
+      padding: 30px 10px;
+    }
+
+    main.hero h2 {
+      color: #212121;
+    }
+
+    .cards-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      min-height: 350px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      display: block;
+      margin: 0 auto 15px auto;
+      max-width: 100px;
+      height: auto;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #2563eb;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #003079;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #2E7D32;
+    }
+
+    footer {
+      background-color: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mi Web</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Sobre mí</a>
+      <a href="portafolio.html">Portafolio</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <h2>Mi Portafolio</h2>
+  </main>
+
+  <div class="cards-container">
+
+    
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="fotocompumax">
+      <h2>Instagram</h2>
+      <p>Sitio web diseñado como red social dedicada especificamente para compartir la vida personal por medio de fotos. Donde se puede seguir a personas de su agrado incluyendo personas famosas.</p>
+      <a href="https://www.compumax.com.co/" class="btn">Ver más</a>
+    </div>
+
+    
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="logo mcdonalds">
+      <h2>Facebook</h2>
+      <p>Facebook es una red social que permite conectar con amigos, familiares y comunidades, compartir fotos, videos, mensajes y mantenerse informado sobre temas de interés.</p>
+      <a href="https://www.mcdonalds.com.co/" class="btn">Ver más</a>
+    </div>
+
+    
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="logo youtube">
+      <h2>YouTube</h2>
+      <p>Página web desarrollada como proyecto personal, inspirada en YouTube. Incluye secciones para explorar videos, categorías de contenido, un buscador integrado y un reproductor con opciones básicas de interacción.</p>
+      <a href="https://www.youtube.com/" class="btn">Ver más</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Desarrollo propio - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+
+</html>
